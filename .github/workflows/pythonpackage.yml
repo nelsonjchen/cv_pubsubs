@@ -21,7 +21,7 @@ jobs:
     - uses: dschep/install-poetry-action@v1.2
     - run: poetry install
     - run: poetry run pytest tests
-  build:
+  buildmacos:
 
     runs-on: macos-latest
     strategy:
